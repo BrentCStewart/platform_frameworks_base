@@ -612,9 +612,7 @@ non_base_dirs := \
 	../../external/apache-http/src/org/apache/http \
 	../opt/telephony/src/java/android/provider \
 	../opt/telephony/src/java/android/telephony \
-	../opt/telephony/src/java/android/telephony/gsm \
-	../opt/net/voip/src/java/android/net/rtp \
-	../opt/net/voip/src/java/android/net/sip
+	../opt/telephony/src/java/android/telephony/gsm
 
 # These are relative to frameworks/base
 dirs_to_check_apis := \
@@ -667,8 +665,7 @@ framework_docs_LOCAL_API_CHECK_JAVA_LIBRARIES := \
 	okhttp \
 	ext \
 	framework \
-	telephony-common \
-	voip-common
+	telephony-common
 
 framework_docs_LOCAL_JAVA_LIBRARIES := \
 	$(framework_docs_LOCAL_API_CHECK_JAVA_LIBRARIES) \
