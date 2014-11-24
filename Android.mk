@@ -609,10 +609,7 @@ include libcore/Docs.mk
 include external/junit/Common.mk
 
 non_base_dirs := \
-	../../external/apache-http/src/org/apache/http \
-	../opt/telephony/src/java/android/provider \
-	../opt/telephony/src/java/android/telephony \
-	../opt/telephony/src/java/android/telephony/gsm
+	../../external/apache-http/src/org/apache/http
 
 # These are relative to frameworks/base
 dirs_to_check_apis := \
